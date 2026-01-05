@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7-day-interview-plan</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="kế-hoạch-ôn-tập-7-ngày-chi-tiết">📅 KẾ HOẠCH ÔN TẬP 7 NGÀY CHI
+TIẾT</h1>
+<h2 id="ngày-1-spring-boot-core-bắt-buộc-cho-senior">📌 NGÀY 1 — SPRING
+BOOT (core bắt buộc cho senior)</h2>
+<h3 id="review-các-chủ-đề">1. Review các chủ đề:</h3>
+<ul>
+<li>Sự khác nhau giữa:
+<ul>
+<li><code>@Component</code> vs <code>@Service</code> vs
+<code>@Repository</code></li>
+<li><code>@Autowired</code> vs constructor injection</li>
+</ul></li>
+<li>Bean lifecycle — thực tế interviewer rất thích hỏi</li>
+<li>Spring MVC core:
+<ul>
+<li>Filter vs Interceptor</li>
+<li>ExceptionHandler best practice</li>
+</ul></li>
+<li>Actuator</li>
+<li>ConfigurationProperties</li>
+</ul>
+<h3 id="bài-tập-tối-thiểu">2. Bài tập tối thiểu:</h3>
+<ul>
+<li>Tự code 1 API CRUD + exception global + interceptor + actuator</li>
+<li>20 câu hỏi Spring Boot (mình sẽ soạn nếu bạn muốn)</li>
+</ul>
+<hr />
+<h2 id="ngày-2-microservices-distributed-systems">📌 NGÀY 2 —
+MICROSERVICES &amp; DISTRIBUTED SYSTEMS</h2>
+<h3 id="concepts-phải-nắm">Concepts phải nắm:</h3>
+<ul>
+<li>API Gateway pattern</li>
+<li>Saga pattern (chỉ cần hiểu concept + use case)</li>
+<li>Event-driven vs Request-driven</li>
+<li>Idempotency (rất hay bị hỏi!)</li>
+<li>Rate limiting</li>
+<li>Circuit breaker (Resilience4J)</li>
+<li>Retry with backoff</li>
+<li>Distributed lock (Redis / DynamoDB TTL)</li>
+</ul>
+<h3 id="bài-tập">Bài tập:</h3>
+<ul>
+<li>Mô tả 1 use-case event-driven mà bạn từng làm (Kinesis/SQS)</li>
+<li>Chuẩn bị 3 ví dụ lỗi hệ thống và cách bạn fix.</li>
+</ul>
+<hr />
+<h2 id="ngày-3-aws-đúng-trọng-tâm-cv-của-bạn">📌 NGÀY 3 — AWS (đúng
+trọng tâm CV của bạn)</h2>
+<h3 id="phải-chắc-chắn">Phải chắc chắn:</h3>
+<ul>
+<li>ECS Fargate vs Lambda – dùng khi nào?</li>
+<li>DynamoDB best practices:
+<ul>
+<li>Partition key</li>
+<li>GSIs</li>
+<li>Hot partition</li>
+<li>Throttling</li>
+</ul></li>
+<li>SQS vs SNS vs Kinesis – phân biệt thật sắc nét</li>
+<li>IAM: policy → role → trust</li>
+</ul>
+<h3 id="real-world-question">Real-world question:</h3>
+<ul>
+<li>“Làm sao để scale một service đang chạy trên ECS khi TPS tăng bất
+ngờ?”</li>
+<li>“Làm sao để tránh DynamoDB hot partition?”</li>
+</ul>
+<hr />
+<h2 id="ngày-4-java-coding">📌 NGÀY 4 — JAVA &amp; CODING</h2>
+<h3 id="java-topics-nên-ôn">Java topics nên ôn:</h3>
+<ul>
+<li>Immutable class</li>
+<li>ConcurrentHashMap + concurrency levels</li>
+<li>CompletableFuture (quan trọng!)</li>
+<li>ThreadPoolExecutor params</li>
+<li>Stream API pitfalls</li>
+<li>JVM memory model + GC (G1GC cơ bản)</li>
+</ul>
+<h3 id="coding-tối-thiểu">Coding tối thiểu:</h3>
+<ul>
+<li>Reverse linked list</li>
+<li>Two pointer</li>
+<li>Map/Set problems</li>
+<li>Basic string manipulation</li>
+<li>LRU cache (concept)</li>
+<li>Thread-safe counter</li>
+</ul>
+<p>⛔ Bạn không cần leetcode hard, chỉ cần trả lời mượt + code sạch.</p>
+<hr />
+<h2 id="ngày-5-system-design-senior-bắt-buộc">📌 NGÀY 5 — SYSTEM DESIGN
+(senior bắt buộc)</h2>
+<h3 id="topics-chính">Topics chính:</h3>
+<ul>
+<li>Load balancing (round robin vs consistent hashing)</li>
+<li>Caching strategies:
+<ul>
+<li>Cache aside</li>
+<li>Write-through</li>
+<li>Write-back</li>
+</ul></li>
+<li>Message queue</li>
+<li>Database sharding vs replication</li>
+<li>Event-driven architecture</li>
+<li>High availability vs scalability</li>
+</ul>
+<h3 id="bài-tập-1">Bài tập:</h3>
+<p>Thiết kế 1 hệ thống đơn giản nhưng chắc: - Notification system - Log
+ingestion system - Order service (Saga + timeout)</p>
+<hr />
+<h2 id="ngày-6-behavioral-tăng-tỷ-lệ-pass-tuyệt-đối">📌 NGÀY 6 —
+BEHAVIORAL (TĂNG TỶ LỆ PASS TUYỆT ĐỐI)</h2>
+<h3 id="dành-cho-các-câu-phỏng-vấn">Dành cho các câu phỏng vấn:</h3>
+<ul>
+<li>“Tell me about yourself”</li>
+<li>“Dự án khó nhất bạn từng làm?”</li>
+<li>“Một lần bạn fail?”</li>
+<li>“Bạn xử lý conflict trong team thế nào?”</li>
+<li>“Bạn đã leadership như thế nào?”</li>
+</ul>
+<h3 id="template-star-impact">Template STAR + Impact:</h3>
+<ul>
+<li><strong>S (situation):</strong> Microservice đang bị tăng latency
+lên 600ms<br />
+</li>
+<li><strong>T (task):</strong> Tôi chịu trách nhiệm phân tích root
+cause<br />
+</li>
+<li><strong>A (action):</strong>
+<ul>
+<li>Log correlation ID<br />
+</li>
+<li>Tracing distributed<br />
+</li>
+<li>Làm heatmap DynamoDB partition<br />
+</li>
+</ul></li>
+<li><strong>R (result):</strong> Giảm latency từ 600ms → 120ms, ổn định
+ở peak 30k RPM.</li>
+</ul>
+<hr />
+<h2 id="ngày-7-mock-interview-full">📌 NGÀY 7 — MOCK INTERVIEW FULL</h2>
+<h3 id="buổi-luyện-mock-sẽ-gồm">Buổi luyện mock sẽ gồm:</h3>
+<ul>
+<li>10 câu Spring Boot<br />
+</li>
+<li>10 câu Distributed Systems<br />
+</li>
+<li>10 câu AWS<br />
+</li>
+<li>1 bài Design nhỏ<br />
+</li>
+<li>2 câu coding cơ bản<br />
+</li>
+<li>5 câu behavioral</li>
+</ul>
+</body>
+</html>
